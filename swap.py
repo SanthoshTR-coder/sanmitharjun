@@ -1,5 +1,9 @@
- a=20
- b=80
-a=b,b=a
-print(a)
-print(b)
+a = 5
+b = 10
+
+# Swapping
+a, b = b, a
+
+print("a =", a)  # 10
+print("b =", b)  # 5
+
